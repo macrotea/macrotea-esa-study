@@ -37,5 +37,13 @@ public interface UserDao {
 	 * @return
 	 */
 	User save(User modelInstance);
+	
+	/**
+	 * 删除所有
+	 * @author macrotea@qq.com
+	 * @date 2013-1-3 下午8:39:19
+	 * @return
+	 */
+	int deleteAll();
 
 }

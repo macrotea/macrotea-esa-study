@@ -1,3 +1,7 @@
 https://code.google.com/p/ehcache-spring-annotations/
 
 http://blog.goyello.com/2010/07/29/quick-start-with-ehcache-annotations-for-spring/
+
+http://code.google.com/p/ehcache-spring-annotations/wiki/UsingCacheable
+
+http://www.ehcache.org/documentation/user-guide/getting-started

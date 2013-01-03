@@ -68,5 +68,14 @@ public class UserDaoImpl implements UserDao{
 		PrintUtil.formatPrint("正在调用: findAll()");
 		return jdbcTemplate.query("SELECT * FROM tb_user",mapper);
 	}
+	
+	/* (non-Javadoc)
+	 * @see com.mtea.esa.dao.UserDao#findAll()
+	 */
+    @TriggersRemove(cacheName={"userCache"}, removeAll=true)
+	public int deleteAll() {
+		PrintUtil.formatPrint("正在调用: deleteAll()");
+		return jdbcTemplate.update("DELETE FROM tb_user",mapper);
+	}
 
 }

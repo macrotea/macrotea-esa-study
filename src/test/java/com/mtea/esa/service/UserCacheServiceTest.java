@@ -13,6 +13,7 @@ import com.mtea.esa.AbstractTestCase;
 import com.mtea.esa.dao.UserDao;
 import com.mtea.esa.model.User;
 import com.mtea.esa.util.PrintUtil;
+import com.mtea.esa.util.ThreadUtil;
 
 /**
  * @author macrotea@qq.com
