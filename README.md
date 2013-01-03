@@ -1,4 +1,6 @@
-macrotea-ssm-study
+
+macrotea-esa-study
 ==================
 
-simple-spring-memcached的学习和使用
+ehcache-spring-annotations的学习
+
