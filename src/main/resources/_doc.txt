@@ -1,0 +1,3 @@
+https://code.google.com/p/ehcache-spring-annotations/
+
+http://blog.goyello.com/2010/07/29/quick-start-with-ehcache-annotations-for-spring/
